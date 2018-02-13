@@ -1,0 +1,136 @@
+/* html,body,h1,ul,li,footer,p,a {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font:inherit;
+  font-size:100%;
+}
+
+/*Body Padding and Body Font  */
+/* body {
+  padding: 10px;
+  font-family: arial, helvetica neue, helvetica, sans-serif;
+}
+
+/*Heading Font Family and sizes  */
+/* h1,h2,h3,h4,h5,h6 {
+  font-family:georgia, times,times new roman , serif ; */ */
+} */
+
+h1 {
+  font-size:36px;
+  font-weight:bold;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size:25px;
+  font-weight:bold;
+  margin-bottom: 5px;
+}
+
+/* This code work on the head containers containers  */
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+
+  border:5px dashed violet;
+  align-items: baseline;
+  padding:1px
+}
+
+.container-2{
+  display: flex;
+  flex-flow: row wrap;
+
+  border:3px dashed red;
+  align-items: baseline;
+  justify-content: space-between;
+  padding:100px;
+
+}
+
+.nav {
+  justify-content: flex-end;
+}
+
+.items {
+  flex:1;
+  border:3px solid gold;
+  margin:0;
+}
+
+.container .items {
+  padding:20px;
+}
+
+.container h1 {
+  background: #4aaaa5;
+  color:#ffffff;
+}
+
+.items2 {
+  flex: 1;
+  border: 2px solid lime;
+
+}
+
+.main-content .items2 {
+  padding:100px;
+  margin: 10px;
+
+}
+
+/* Adjusts the border seperating header from main with a slight margin adjustment */
+.main-content {
+  border-top: 2px solid #999999;
+  margin-top:-1px;
+  border-bottom:6px solid #4aaaa5;
+}
+
+.main-content .main,.side {
+  background-color: #ffffff;
+  /* border:1px solid #999999;
+  box-shadow:1px 2px 9px #666666; */
+
+}
+
+
+/* NAV LINKS */
+.container .nav {
+  flex:4;
+}
+.nav {
+}
+
+.nav li {
+  display:inline;
+
+}
+
+.nav a {
+  text-decoration: none;
+  color:#999999;
+  border-right:1px solid #999999;
+  padding:0 14px 0 20px;
+
+}
+
+.nav a li:last-child {
+  border-right: none;
+}
+
+
+.container-2{
+  background:#999999 url("../images/dust_scratches.png") repeat;
+}
+
+footer .items {
+  background-color:#666666;
+  margin-top:-1px;
+}
