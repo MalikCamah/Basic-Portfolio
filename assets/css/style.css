@@ -308,7 +308,7 @@ p,label {
 #contact .leftbox {
   width: 650px;
   background-color:#ffffff;
-  height: 520px;
+  height: 500px;
   border:2px solid #dddddd;
   box-shadow: 1px 2px 9px #dddddd;
   /* maybe */
@@ -324,8 +324,12 @@ p,label {
   padding-left:25px;
 }
 
-#contact input, #contact textarea {
+#contact input {
   margin:10px 0 10px 0;
+}
+
+#contact textarea {
+  margin:10px 0 -5px 0;
 }
 
 #contact form input:not(:last-of-type) {
@@ -333,13 +337,16 @@ p,label {
   height: 20px;
 }
 
+
 [type="button"] {
 height: 30px;
 width: 90px;
-padding: 8px;
+padding: 3px;
 background-color: #4aaaa5;
 color:#ffffff;
-box-shadow: 1px 2px 7px #666666;
+margin-top: 2px;
+cursor: pointer;
+/* box-shadow: 1px 2px 7px #666666; */
 
 
 }
@@ -394,26 +401,7 @@ box-shadow: 1px 2px 7px #666666;
 #contact .rightbox h2 {
   padding-bottom:0px;
 }
-
-
-
-
-
-
-input,textarea {
-  display: block;
-  margin-top:0.5px;
-}
-
-
-
-
-
-
-
-
-
-
+/*MAIN CONTENT CSS RULESETS END HERE  */
 
 /* FOOTER CONTENT CSS RULESETS STARTS HERE */
 
@@ -440,7 +428,7 @@ input,textarea {
   height: 51px;
 }
 
-
+/*FOOTER CSS RULESETS END HERE  */
 
 
 
