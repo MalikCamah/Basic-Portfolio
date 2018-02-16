@@ -1,5 +1,5 @@
 /*START OF PRESETS FOR FORMATTING */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,input,textarea {
   font-family: georgia times, times new roman, serif
 }
 
@@ -35,7 +35,7 @@ h2 {
   color:#4aaaa5;
 }
 
-p {
+p,label {
   color:#777777;
 }
 
@@ -46,7 +46,7 @@ p {
 
 /* START OF HEADER FORMATTING CSS RULESETS */
 
-header {
+#index header {
   height:71px;
   border-bottom:1px solid #666656;
   box-shadow: 1px 2px 9px #cccccc;
@@ -56,7 +56,7 @@ header {
 
 }
 
-.flex-container {
+#index .flex-container {
   width:960px;
   /* Important in regards to centering the content The height must match the height of the header + border  */
   height:72px;
@@ -71,43 +71,48 @@ header {
 
 }
 
-.flex-container ul {
+#index .flex-container ul {
   display: flex;
 
 }
 
-.flex-container li {
+#index .flex-container li {
   padding:10px;
 }
 
 
-.flex-container li a {
+#index .flex-container li a {
   text-decoration: none;
   color:#777777;
   border-right: 1px solid #777777;
   padding:0px 10px 0px 0px;
 }
 
-.flex-container li:last-child a {
+#index .flex-container li:last-child a {
   border-right: none;
 }
 
 
 
-#header-title {
+#index .header-title {
   background-color: #4aaaa5;
   padding:0 20px 0 20px;
   height:70px;
   line-height: 70px;
 }
 
-
 /*END OF HEADER CSS RULESETS  */
 
 /* SPECIAL CSS STYLING FOR HEADER STARTS  HERE */
 
-.flex-container a:hover{
+#index .flex-container a:hover{
   color:#4aaaa5;
+}
+
+
+[type="submit"] {
+  width: 10em;
+  color: green;
 }
 
 /* SPEACIAL CSS STYLING FOR HEADER ENDS HERE */
@@ -116,20 +121,20 @@ header {
 
 /* START OF MAIN CONTENT CSS RULESETS */
 
-main {
+#index main {
   height: 768px;
   /* border-bottom:7px solid #4aaaa5; */
   margin-bottom: 0px;
 }
 
-.flex-container-main {
+#index .flex-container-main {
   width: 960px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-.leftbox {
+#index .leftbox {
   width: 650px;
   background-color:#ffffff;
   height: 500px;
@@ -144,7 +149,7 @@ main {
 
 }
 
-.flex-container-main img {
+#index .flex-container-main img {
   /* border: 1px solid #666666;; */
   /* box-shadow: 1px 4px 10px #666666; */
   margin:2px 0 0 30px;
@@ -153,13 +158,13 @@ main {
 }
 
 
-.flex-container-main h2 {
+#index .flex-container-main h2 {
   margin:30px;
   border-bottom: 2px solid #dddddd;
   padding-bottom: 30px;
 }
 
-.rightbox {
+#index .rightbox {
   width:270px;
   background-color: #ffffff;
   height:200px;
@@ -173,13 +178,13 @@ main {
   /* border:5px dashed orange; */
 }
 
-.rightbox img {
+#index .rightbox img {
   height: 50px;
   width: 50px;
   margin: 0px;
 }
 
-.rightbox h2 {
+#index .rightbox h2 {
   padding-bottom:0px;
 }
 
@@ -188,7 +193,7 @@ main {
 
 /* FOOTER CONTENT CSS RULESETS STARTS HERE */
 
-footer {
+#index footer {
   width: 100%;
   height:55px;
   background-color:#666666;
@@ -197,13 +202,237 @@ footer {
   bottom: 0;
 }
 
-footer h4 {
+#index footer h4 {
   color:#ffffff;
   /* font-weight:bold; */
   font-size:13px;
 }
 
-.flex-container-footer {
+#index .flex-container-footer {
+  margin: 0,auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 51px;
+}
+/* FOOTER CONTENT CSS RULESETS ENDS HERE */
+
+
+
+
+
+
+
+/*CONTACT PAGE CSS BELOW ....................................................  */
+#contact header {
+  height:71px;
+  border-bottom:1px solid #666656;
+  box-shadow: 1px 2px 9px #cccccc;
+  background-color:#ffffff;
+  /* Small Seperation from bottom border and main content */
+  margin-bottom:50px;
+}
+
+
+#contact .flex-container {
+  width:960px;
+  /* Important in regards to centering the content The height must match the height of the header + border  */
+  height:72px;
+  margin:0 auto;
+
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  /* Visual Border For Formatting */
+  /* border: 5px dotted pink; */
+
+}
+
+#contact .flex-container ul {
+  display: flex;
+
+}
+
+#contact .flex-container li {
+  padding:10px;
+}
+
+
+#contact .flex-container li a {
+  text-decoration: none;
+  color:#777777;
+  border-right: 1px solid #777777;
+  padding:0px 10px 0px 0px;
+}
+
+#contact .flex-container li:last-child a {
+  border-right: none;
+}
+
+#contact .header-title {
+  background-color: #4aaaa5;
+  padding:0 20px 0 20px;
+  height:70px;
+  line-height: 70px;
+}
+/*END OF SPECIAL CSS RULESETS  */
+
+/* SPECIAL CSS STYLING FOR HEADER STARTS  HERE */
+
+#contact .flex-container a:hover{
+  color:#4aaaa5;
+}
+
+/* SPEACIAL CSS STYLING FOR HEADER ENDS HERE */
+
+
+
+
+/* START OF MAIN CONTENT CSS RULESETS */
+
+#contact main {
+  height: 768px;
+  /* border-bottom:7px solid #4aaaa5; */
+  margin-bottom: 0px;
+}
+
+#contact .flex-container-main {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#contact .leftbox {
+  width: 650px;
+  background-color:#ffffff;
+  height: 520px;
+  border:2px solid #dddddd;
+  box-shadow: 1px 2px 9px #dddddd;
+  /* maybe */
+  /* display: flex; */
+  /* justify-content:flex-start; */
+  /* flex-flow:column wrap; */
+  /* align-content: flex-start; */
+  /* border:5px dashed orange; */
+
+}
+
+#contact form {
+  padding-left:25px;
+}
+
+#contact input, #contact textarea {
+  margin:10px 0 10px 0;
+}
+
+#contact form input:not(:last-of-type) {
+  width: 54em;
+  height: 20px;
+}
+
+[type="button"] {
+height: 30px;
+width: 90px;
+padding: 8px;
+background-color: #4aaaa5;
+color:#ffffff;
+box-shadow: 1px 2px 7px #666666;
+
+
+}
+
+
+
+#contact .flex-container-main img {
+  /* border: 1px solid #666666;; */
+  /* box-shadow: 1px 4px 10px #666666; */
+  margin:2px 0 0 30px;
+  float: left;
+  padding-right: 10px;
+}
+
+
+
+/* #contact .flex-container-main img {
+  /* border: 1px solid #666666;; */
+  /* box-shadow: 1px 4px 10px #666666; */
+  /* margin:2px 0 0 30px;
+  float: left;
+  padding-right: 10px;
+} */
+
+
+#contact .flex-container-main h2 {
+  margin:30px;
+  border-bottom: 2px solid #dddddd;
+  padding-bottom: 30px;
+}
+
+#contact .rightbox {
+  width:270px;
+  background-color: #ffffff;
+  height:200px;
+  border:2px solid #dddddd;
+  box-shadow:1px 2px 9px #dddddd;
+
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: center;
+  /* Visual Reference */
+  /* border:5px dashed orange; */
+}
+
+#contact .rightbox img {
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+}
+
+#contact .rightbox h2 {
+  padding-bottom:0px;
+}
+
+
+
+
+
+
+input,textarea {
+  display: block;
+  margin-top:0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER CONTENT CSS RULESETS STARTS HERE */
+
+#contact footer {
+  width: 100%;
+  height:55px;
+  background-color:#666666;
+  border-top:7px solid #4aaaa5;
+  position: fixed;
+  bottom: 0;
+}
+
+#contact footer h4 {
+  color:#ffffff;
+  /* font-weight:bold; */
+  font-size:13px;
+}
+
+#contact .flex-container-footer {
   margin: 0,auto;
   display: flex;
   align-items: center;
@@ -211,7 +440,13 @@ footer h4 {
   height: 51px;
 }
 
-/* FOOTER CONTENT CSS RULESETS ENDS HERE */
+
+
+
+
+
+
+
 
 
 /* Test Area  */
@@ -219,8 +454,8 @@ footer h4 {
 
 
 /* .hover-rotate:hover {
-  -ms-transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
-  transform: rotate(-10deg); */
+-ms-transform: rotate(-10deg);
+-webkit-transform: rotate(-10deg);
+-moz-transform: rotate(-10deg);
+-o-transform: rotate(-10deg);
+transform: rotate(-10deg); */
