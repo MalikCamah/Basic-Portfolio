@@ -360,14 +360,14 @@ cursor: pointer;
 /* box-shadow: 1px 2px 7px #666666; */
 }
 
-[type="button"]:hover {
+/* [type="button"]:hover {
   background-color: #ffffff;
   color:#4aaaa5;
-  font-weight: bold;
+  font-weight: bold; */
 }
 
-input[type="text"]:focus{
-  border: 2px solid #ffe8dc;
+/* input[type="text"]:focus{
+  border: 2px solid #ffe8dc; */
 
 }
 
